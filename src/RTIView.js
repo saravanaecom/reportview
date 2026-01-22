@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function RTIView() {
-  const [progress, setProgress] = useState(false);
+  
 
   const [formData, setFormData] = useState({
     SoId: 8572,
@@ -49,7 +49,7 @@ function RTIView() {
       console.error(error);
       alert("Error opening RTI");
     } finally {
-      setProgress(true);
+     
     }
   };
 
